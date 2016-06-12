@@ -1,0 +1,10 @@
+<html>
+<script>
+
+var uri = "New Compsci Club";
+var res = encodeURI(uri);
+context.simplehttp.makeGet('http://schoolcouncil.me/test.php?name=' + res);
+//window.alert(res);
+
+</script>
+</html>
